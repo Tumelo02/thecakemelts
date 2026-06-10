@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "missing": [
+        { "type": "host", "value": "thecakemelts.co.za" }
+      ],
+      "destination": "https://thecakemelts.co.za/$1",
+      "permanent": true
+    }
+  ]
+}
