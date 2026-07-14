@@ -78,9 +78,11 @@
 
         emailjs.send(emailJsService, emailJsTemplate, {
             from_name: name,
+            from_email: email,
             reply_to: email,
             subject: subject,
-            message: message
+            message: message,
+            time: new Date().toLocaleString()
         }).then(function() {
             $successMsg.text("Your message has been sent successfully!").fadeIn(1000);
             $errorMsg.fadeOut(500);

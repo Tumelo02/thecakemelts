@@ -268,12 +268,11 @@ This guide will help you deploy your website for free using various hosting opti
 4. **Update Your Form**
    - Add EmailJS script to your HTML:
    ```html
-   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-   <script>
-      emailjs.init("YOUR_PUBLIC_KEY");
-   </script>
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+   <script src="js/contact-form.js"></script>
    ```
-   - Update form JavaScript to use EmailJS
+   - Configure the form using data attributes instead of hardcoding secrets.
+   - Set `data-emailjs-service`, `data-emailjs-template`, and `data-emailjs-public` on the form.
 
 ### Using Formspree (Easiest):
 
@@ -320,12 +319,12 @@ This guide will help you deploy your website for free using various hosting opti
 ### Step-by-step: Wire EmailJS on InfinityFree (no PHP mail)
 1) In EmailJS:
    - Create a Service (e.g., Gmail) -> copy **Service ID**
-   - Create a Template with fields: `from_name`, `reply_to`, `subject`, `message`
+   - Create a Template with fields: `from_name`, `from_email`, `reply_to`, `subject`, `message`
    - Copy **Template ID** and **Public Key**
 2) In `index.html`:
    - Find the contact form tag (`id="contact-form"`) and set:
-     - `data-emailjs-service="YOUR_SERVICE_ID"`
-     - `data-emailjs-template="YOUR_TEMPLATE_ID"`
+     - `data-emailjs-service="service_YOUR_SERVICE_ID"`
+     - `data-emailjs-template="template_YOUR_TEMPLATE_ID"`
      - `data-emailjs-public="YOUR_PUBLIC_KEY"`
 3) Deploy/upload:
    - Upload updated site to InfinityFree `htdocs/`

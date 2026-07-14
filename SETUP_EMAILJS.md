@@ -38,8 +38,7 @@ Subject: {{subject}}
 Message:
 {{message}}
 
----
-This email was sent from The Cake Melts website contact form.
+---Reply to: {{reply_to}}This email was sent from The Cake Melts website contact form.
 ```
 
 4. Click **Save**
@@ -55,31 +54,35 @@ This email was sent from The Cake Melts website contact form.
 
 1. **Add EmailJS Script to index.html**
 
-   Find this line (around line 520):
+   Make sure these scripts are included before the closing `</body>` tag:
    ```html
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
    <script src="js/contact-form.js"></script>
    ```
 
-   Replace it with:
+2. **Configure the contact form data attributes**
+
+   Open `index.html` and find the contact form tag with `id="contact-form"`.
+   Set the EmailJS IDs directly in the form data attributes:
    ```html
-   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-   <script src="js/contact-form-emailjs.js"></script>
+   <form id="contact-form" 
+         data-emailjs-service="service_YOUR_SERVICE_ID" 
+         data-emailjs-template="template_YOUR_TEMPLATE_ID" 
+         data-emailjs-public="YOUR_PUBLIC_KEY">
    ```
-
-2. **Update contact-form-emailjs.js**
-
-   Open `js/contact-form-emailjs.js` and replace:
-   - `YOUR_PUBLIC_KEY_HERE` with your Public Key
-   - `YOUR_SERVICE_ID` with your Service ID
-   - `YOUR_TEMPLATE_ID` with your Template ID
 
    Example:
-   ```javascript
-   emailjs.init("abc123xyz");  // Your Public Key
-   
-   // Later in the code:
-   emailjs.send('service_abc123', 'template_xyz789', templateParams)
+   ```html
+   <form id="contact-form" 
+         data-emailjs-service="service_abcd123" 
+         data-emailjs-template="template_xyza456" 
+         data-emailjs-public="public_7890abcd">
    ```
+
+3. **No additional JS file is required**
+
+   The site already uses `js/contact-form.js` to submit the form through EmailJS.
+   Do not replace it with `js/contact-form-emailjs.js` unless you intentionally switch to a different implementation.
 
 ## Step 6: Test
 
