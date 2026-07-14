@@ -76,13 +76,19 @@
         // Disable submit button
         $submitBtn.prop('disabled', true).text('Sending...');
 
+        var now = new Date();
+        var formattedTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        var formattedDate = now.toLocaleDateString([], { year: 'numeric', month: 'short', day: 'numeric' });
+        var formattedTimestamp = formattedTime + ' ' + formattedDate;
+
         emailjs.send(emailJsService, emailJsTemplate, {
+            name: name,
             from_name: name,
             from_email: email,
             reply_to: email,
             subject: subject,
             message: message,
-            time: new Date().toLocaleString()
+            time: formattedTimestamp
         }).then(function() {
             $successMsg.text("Your message has been sent successfully!").fadeIn(1000);
             $errorMsg.fadeOut(500);
