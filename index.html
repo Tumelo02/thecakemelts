@@ -14,7 +14,7 @@ The Cake Melts - Custom Cake Bakery Website
 -->
      <meta name="description" content="The Cake Melts bakes custom cakes and cupcakes in Bloemfontein for birthdays, weddings, graduations, baby showers and every special occasion. Fresh, delicious and designed around your idea.">
      <meta name="keywords" content="custom cakes Bloemfontein, cupcakes Bloemfontein, birthday cakes, heart cakes, wedding cakes, graduation cakes, baby shower cakes, bakery Free State, The Cake Melts">
-     <meta name="author" content="The Cake Melts">
+     <meta name="author" content="Lerato Ntsinyi, The Cake Melts">
      <meta name="robots" content="index, follow, max-image-preview:large">
      <meta name="theme-color" content="#c2185b">
 
@@ -44,15 +44,40 @@ The Cake Melts - Custom Cake Bakery Website
      <link rel="icon" href="cake_images/icon-192.png" sizes="192x192" type="image/png">
      <link rel="apple-touch-icon" href="cake_images/icon-180.png">
 
-     <!-- Structured Data: Bakery + social profiles (sameAs) -->
+     <!-- Structured Data: website, bakery, and its founder/owner (read by search engines, not shown on the page) -->
      <script type="application/ld+json">
      {
        "@context": "https://schema.org",
+       "@graph": [
+       {
+         "@type": "WebSite",
+         "@id": "https://thecakemelts.co.za/#website",
+         "url": "https://thecakemelts.co.za/",
+         "name": "The Cake Melts",
+         "alternateName": ["Cake Melts", "The Cake Melts Bloemfontein", "thecakemelts"],
+         "inLanguage": "en-ZA",
+         "publisher": { "@id": "https://thecakemelts.co.za/#bakery" }
+       },
+       {
+         "@type": "Person",
+         "@id": "https://thecakemelts.co.za/#founder",
+         "name": "Lerato Ntsinyi",
+         "jobTitle": "Founder, Owner & Baker",
+         "description": "Lerato Ntsinyi is a self-taught baker and the founder and owner of The Cake Melts, a custom cake and cupcake business in Bloemfontein, South Africa, started in 2021.",
+         "knowsAbout": ["Custom cakes", "Cupcakes", "Cake decorating", "Baking"],
+         "homeLocation": { "@type": "City", "name": "Bloemfontein" },
+         "worksFor": { "@id": "https://thecakemelts.co.za/#bakery" },
+         "url": "https://thecakemelts.co.za/"
+       },
+       {
        "@type": "Bakery",
        "@id": "https://thecakemelts.co.za/#bakery",
        "name": "The Cake Melts",
+       "alternateName": "Cake Melts",
        "slogan": "Where Sweetness Melts Every Heart",
-       "description": "Custom cakes and cupcakes in Bloemfontein for birthdays, weddings, graduations, baby showers and special occasions.",
+       "description": "The Cake Melts is a custom cake and cupcake bakery in Bloemfontein, Free State, founded in 2021 by self-taught baker Lerato Ntsinyi. Cakes for birthdays, weddings, graduations, baby showers and special occasions.",
+       "founder": { "@id": "https://thecakemelts.co.za/#founder" },
+       "keywords": "cakes Bloemfontein, custom cakes Bloemfontein, cupcakes Bloemfontein, birthday cakes Bloemfontein, wedding cakes Bloemfontein, heart cakes, bento cakes",
        "url": "https://thecakemelts.co.za/",
        "logo": "https://thecakemelts.co.za/cake_images/icon-512.png",
        "image": [
@@ -78,6 +103,8 @@ The Cake Melts - Custom Cake Bakery Website
          "https://www.facebook.com/share/18km2cuvvU/",
          "https://www.instagram.com/the_cake_melts",
          "https://www.tiktok.com/@the_cake_melts"
+       ]
+       }
        ]
      }
      </script>
@@ -304,7 +331,7 @@ The Cake Melts - Custom Cake Bakery Website
                <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
                     <h4>Fresh from the oven</h4>
                     <h2>Our Cakes</h2>
-                    <p class="section-lead">Every cake below was made to a customer's own idea. Tap any photo to see it up close.</p>
+                    <p class="section-lead">Every cake below was baked in Bloemfontein to a customer's own idea. Tap any photo to see it up close.</p>
                </div>
 
                <div class="gallery-filters" role="group" aria-label="Filter gallery">
