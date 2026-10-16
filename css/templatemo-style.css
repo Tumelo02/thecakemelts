@@ -6,7 +6,6 @@ http://www.templatemo.com/tm-515-eatery
 
 */
 
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
   body {
     background: #ffffff;
@@ -72,7 +71,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   a:hover, a:active, a:focus {
-    color: #ce3232;
+    color: #c2185b;
     outline: none;
   }
 
@@ -145,7 +144,7 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   .section-btn {
-    background: #ce3232;
+    background: #c2185b;
     border-radius: 0;
     border: 0;
     color: #f9f9f9;
@@ -197,7 +196,7 @@ http://www.templatemo.com/tm-515-eatery
     animation: spinner .9s linear infinite;
   }
 
-  @-webkit-@keyframes spinner {
+  @-webkit-keyframes spinner {
     to {transform: rotate(360deg);}
   }
 
@@ -224,7 +223,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .custom-navbar .navbar-brand span {
-    color: #ce3232;
+    color: #c2185b;
   }
 
   .top-nav-collapse {
@@ -273,7 +272,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #ce3232;
+    color: #c2185b;
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
@@ -283,7 +282,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #ce3232;
+    color: #c2185b;
   }
 
   .custom-navbar .navbar-toggle {
@@ -432,7 +431,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .slider .item-third .section-btn:hover,
   .slider .item-third .section-btn:focus {
-    background: #ce3232;
+    background: #c2185b;
     border-color: transparent;
     color: #ffffff;
   }
@@ -746,7 +745,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   #contact button#cf-submit {
-    background: #ce3232;
+    background: #c2185b;
     border-radius: 0;
     border: 0;
     color: #ffffff;
@@ -798,7 +797,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .footer-open-hour {
-    background: #ce3232;
+    background: #c2185b;
     background: url('../cake_images/order.png') center center no-repeat;
     background-size: cover;
     border-radius: 20px;
@@ -856,7 +855,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .social-icon li a {
     border-radius: 100px;
-    color: #ce3232;
+    color: #c2185b;
     font-size: 15px;
     width: 35px;
     height: 35px;
@@ -868,7 +867,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .social-icon li a:hover {
-    background: #ce3232;
+    background: #c2185b;
     color: #ffffff;
   }
 

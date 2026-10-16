@@ -34,7 +34,8 @@
         // Get form values
         var name = $("#cf-name").val().trim();
         var email = $("#cf-email").val().trim();
-        var subject = $("#cf-subject").val().trim();
+        var occasion = $("#cf-occasion").val() || "";
+        var eventDate = $("#cf-date").val() || "";
         var message = $("#cf-message").val().trim();
 
         // Validate form
@@ -48,8 +49,9 @@
             return false;
         }
 
-        if (!subject || subject.length < 3) {
-            $errorMsg.text("Please enter a subject (at least 3 characters).").fadeIn(1000);
+        if (!occasion) {
+            $errorMsg.text("Please choose the occasion for your cake.").fadeIn(1000);
+            $("#cf-occasion").focus();
             return false;
         }
 
@@ -64,7 +66,7 @@
         }
 
         if (!emailJsService || !emailJsTemplate || !emailJsPublicKey) {
-            $errorMsg.text("Email is not configured yet. Please add EmailJS IDs to the form data attributes.").fadeIn(1000);
+            $errorMsg.text("Online orders are unavailable right now. Please WhatsApp or email us at leratontsinyi11@gmail.com.").fadeIn(1000);
             return false;
         }
 
@@ -81,16 +83,23 @@
         var formattedDate = now.toLocaleDateString([], { year: 'numeric', month: 'short', day: 'numeric' });
         var formattedTimestamp = formattedTime + ' ' + formattedDate;
 
+        // The EmailJS template only renders subject/message, so occasion and date are folded in there too.
+        var subject = "Cake order: " + occasion + (eventDate ? " (" + eventDate + ")" : "");
+        var fullMessage = "Occasion: " + occasion + "\n" +
+            "Date needed: " + (eventDate || "Not specified") + "\n\n" + message;
+
         emailjs.send(emailJsService, emailJsTemplate, {
             name: name,
             from_name: name,
             from_email: email,
             reply_to: email,
             subject: subject,
-            message: message,
+            message: fullMessage,
+            occasion: occasion,
+            event_date: eventDate,
             time: formattedTimestamp
         }).then(function() {
-            $successMsg.text("Your message has been sent successfully!").fadeIn(1000);
+            $successMsg.text("Thank you, " + name.split(" ")[0] + "! Your order request has been sent. We'll be in touch soon.").fadeIn(1000);
             $errorMsg.fadeOut(500);
             $form[0].reset();
         }).catch(function(error) {
@@ -101,7 +110,7 @@
             $errorMsg.text(messageText).fadeIn(1000);
             $successMsg.fadeOut(500);
         }).finally(function() {
-            $submitBtn.prop('disabled', false).text('Send Message');
+            $submitBtn.prop('disabled', false).text('Send Order Request');
         });
 
         return false;

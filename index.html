@@ -2,25 +2,21 @@
 <html lang="en">
 <head>
 
-     <script>
-       if (location.protocol !== 'https:') {
-         location.replace('https://' + location.hostname + location.pathname);
-       }
-     </script>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <title>The Cake Melts - Where Sweetness Melts Every Heart</title>
-<!-- 
+     <title>The Cake Melts | Custom Cakes &amp; Cupcakes in Bloemfontein</title>
+<!--
 
 The Cake Melts - Custom Cake Bakery Website
 
 -->
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="The Cake Melts - Custom cakes and cupcakes for birthdays, weddings, anniversaries, and special occasions. Fresh, delicious, and creatively designed.">
-     <meta name="keywords" content="custom cakes, cupcakes, bakery, birthday cakes, wedding cakes, The Cake Melts">
+     <meta name="description" content="The Cake Melts bakes custom cakes and cupcakes in Bloemfontein for birthdays, weddings, graduations, baby showers and every special occasion. Fresh, delicious and designed around your idea.">
+     <meta name="keywords" content="custom cakes Bloemfontein, cupcakes Bloemfontein, birthday cakes, heart cakes, wedding cakes, graduation cakes, baby shower cakes, bakery Free State, The Cake Melts">
      <meta name="author" content="The Cake Melts">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-     <meta name="robots" content="index, follow">
+     <meta name="robots" content="index, follow, max-image-preview:large">
+     <meta name="theme-color" content="#c2185b">
 
      <!-- Canonical -->
      <link rel="canonical" href="https://thecakemelts.co.za/">
@@ -29,36 +25,55 @@ The Cake Melts - Custom Cake Bakery Website
      <meta property="og:type" content="website">
      <meta property="og:site_name" content="The Cake Melts">
      <meta property="og:title" content="The Cake Melts - Where Sweetness Melts Every Heart">
-     <meta property="og:description" content="Custom cakes and cupcakes for birthdays, weddings, baby showers and special occasions. Fresh, delicious and creatively designed.">
+     <meta property="og:description" content="Custom cakes and cupcakes in Bloemfontein for birthdays, weddings, graduations, baby showers and special occasions.">
      <meta property="og:url" content="https://thecakemelts.co.za/">
-     <meta property="og:image" content="https://thecakemelts.co.za/cake_images/Website-hero-image.jpg">
+     <meta property="og:image" content="https://thecakemelts.co.za/cake_images/og-image.jpg">
+     <meta property="og:image:width" content="1200">
+     <meta property="og:image:height" content="630">
+     <meta property="og:image:alt" content="Custom cakes and cupcakes by The Cake Melts">
      <meta property="og:locale" content="en_ZA">
 
      <!-- Twitter Card -->
      <meta name="twitter:card" content="summary_large_image">
      <meta name="twitter:title" content="The Cake Melts - Where Sweetness Melts Every Heart">
-     <meta name="twitter:description" content="Custom cakes and cupcakes for birthdays, weddings, baby showers and special occasions.">
-     <meta name="twitter:image" content="https://thecakemelts.co.za/cake_images/Website-hero-image.jpg">
+     <meta name="twitter:description" content="Custom cakes and cupcakes in Bloemfontein for birthdays, weddings, graduations and baby showers.">
+     <meta name="twitter:image" content="https://thecakemelts.co.za/cake_images/og-image.jpg">
 
      <!-- Favicon -->
-     <link rel="icon" href="cake_images/Logo.png" type="image/png">
+     <link rel="icon" href="cake_images/icon-32.png" sizes="32x32" type="image/png">
+     <link rel="icon" href="cake_images/icon-192.png" sizes="192x192" type="image/png">
+     <link rel="apple-touch-icon" href="cake_images/icon-180.png">
 
      <!-- Structured Data: Bakery + social profiles (sameAs) -->
      <script type="application/ld+json">
      {
        "@context": "https://schema.org",
        "@type": "Bakery",
+       "@id": "https://thecakemelts.co.za/#bakery",
        "name": "The Cake Melts",
-       "description": "Custom cakes and cupcakes for birthdays, weddings, baby showers and special occasions.",
+       "slogan": "Where Sweetness Melts Every Heart",
+       "description": "Custom cakes and cupcakes in Bloemfontein for birthdays, weddings, graduations, baby showers and special occasions.",
        "url": "https://thecakemelts.co.za/",
-       "logo": "https://thecakemelts.co.za/cake_images/Logo.png",
-       "image": "https://thecakemelts.co.za/cake_images/Website-hero-image.jpg",
+       "logo": "https://thecakemelts.co.za/cake_images/icon-512.png",
+       "image": [
+         "https://thecakemelts.co.za/cake_images/og-image.jpg",
+         "https://thecakemelts.co.za/cake_images/IMG-20251203-WA0016.jpg",
+         "https://thecakemelts.co.za/cake_images/IMG-20251203-WA0011.jpg"
+       ],
        "email": "leratontsinyi11@gmail.com",
        "telephone": "+27645022792",
+       "foundingDate": "2021",
+       "servesCuisine": "Cakes, Cupcakes",
        "address": {
          "@type": "PostalAddress",
+         "streetAddress": "10 Calvyn Cres, Park West",
+         "addressLocality": "Bloemfontein",
+         "addressRegion": "Free State",
+         "postalCode": "9301",
          "addressCountry": "ZA"
        },
+       "areaServed": { "@type": "City", "name": "Bloemfontein" },
+       "hasMap": "https://www.google.com/maps/search/?api=1&query=10+Calvyn+Cres,+Park+West,+Bloemfontein,+9301,+South+Africa",
        "sameAs": [
          "https://www.facebook.com/share/18km2cuvvU/",
          "https://www.instagram.com/the_cake_melts",
@@ -66,6 +81,14 @@ The Cake Melts - Custom Cake Bakery Website
        ]
      }
      </script>
+
+     <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap">
+
+     <!-- Hero image is the largest paint: fetch it early -->
+     <link rel="preload" as="image" href="cake_images/Website-hero-image4.jpg">
 
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -76,33 +99,39 @@ The Cake Melts - Custom Cake Bakery Website
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/templatemo-style.css">
+     <link rel="stylesheet" href="css/cakemelts.css">
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="90">
+
+     <a class="skip-link" href="#menu">Skip to our cakes</a>
 
      <!-- PRE LOADER -->
-     <section class="preloader">
+     <section class="preloader" aria-hidden="true">
           <div class="spinner">
 
                <span class="spinner-rotate"></span>
-               
+
           </div>
      </section>
 
 
      <!-- MENU -->
-     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+     <nav class="navbar custom-navbar navbar-fixed-top" aria-label="Main">
           <div class="container">
 
                <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Open menu">
                          <span class="icon icon-bar"></span>
                          <span class="icon icon-bar"></span>
                          <span class="icon icon-bar"></span>
                     </button>
 
                     <!-- lOGO TEXT HERE -->
-                    <a href="#home" class="navbar-brand">The Cake Melts</a>
+                    <a href="#home" class="navbar-brand">
+                         <img src="cake_images/logo-mark.png" alt="" class="brand-mark" width="40" height="40">
+                         <span>The Cake Melts</span>
+                    </a>
                </div>
 
                <!-- MENU LINKS -->
@@ -111,30 +140,39 @@ The Cake Melts - Custom Cake Bakery Website
                          <li><a href="#home" class="smoothScroll">Home</a></li>
                          <li><a href="#about" class="smoothScroll">About</a></li>
                          <li><a href="#menu" class="smoothScroll">Cakes</a></li>
+                         <li><a href="#gallery" class="smoothScroll">Gallery</a></li>
+                         <li><a href="#how-to-order" class="smoothScroll">How to Order</a></li>
                          <li><a href="#contact" class="smoothScroll">Contact</a></li>
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#">Call Now! <i class="fa fa-phone"></i> +27 64 502 2792</a></li>
-                         <a href="#footer" class="section-btn">Order a Cake</a>
+                         <li><a href="tel:+27645022792" class="nav-call"><i class="fa fa-phone" aria-hidden="true"></i> 064 502 2792</a></li>
+                         <li class="nav-cta"><a href="#contact" class="section-btn smoothScroll">Order a Cake</a></li>
                     </ul>
                </div>
 
           </div>
-     </section>
+     </nav>
 
+
+     <main>
 
      <!-- HOME -->
      <section id="home" class="slider" data-stellar-background-ratio="0.5">
           <div class="row">
 
-                    <div class="owl-carousel owl-theme">
+                    <div class="owl-carousel owl-theme hero-carousel">
                          <div class="item item-first">
                               <div class="caption">
                                    <div class="container">
-                                        <div class="col-md-8 col-sm-12">
-                                             <h3>The Cake Melts</h3>
-                                             <h1>Where Sweetness Melts Every Heart</h1>
+                                        <div class="col-md-7 col-sm-12">
+                                             <h3>The Cake Melts &middot; Bloemfontein</h3>
+                                             <h1 class="hero-title">Where Sweetness Melts Every Heart</h1>
+                                             <p class="hero-lead">Custom cakes &amp; cupcakes, baked fresh and designed around <em>your</em> idea.</p>
+                                             <div class="hero-actions">
+                                                  <a href="#contact" class="section-btn btn btn-default smoothScroll">Order your cake</a>
+                                                  <a href="#gallery" class="btn-ghost smoothScroll">See our work</a>
+                                             </div>
                                         </div>
                                    </div>
                               </div>
@@ -143,10 +181,12 @@ The Cake Melts - Custom Cake Bakery Website
                          <div class="item item-second">
                               <div class="caption">
                                    <div class="container">
-                                        <div class="col-md-8 col-sm-12">
+                                        <div class="col-md-7 col-sm-12">
                                              <h3>Custom Cakes &amp; Cupcakes</h3>
-                                             <h1>Fresh, delicious, and creatively designed for your special moments</h1>
-                                             <a href="#menu" class="section-btn btn btn-default smoothScroll">View our cakes</a>
+                                             <h2 class="hero-title">Fresh, delicious, and creatively designed for your special moments</h2>
+                                             <div class="hero-actions">
+                                                  <a href="#menu" class="section-btn btn btn-default smoothScroll">View our cakes</a>
+                                             </div>
                                         </div>
                                    </div>
                               </div>
@@ -155,16 +195,38 @@ The Cake Melts - Custom Cake Bakery Website
                          <div class="item item-third">
                               <div class="caption">
                                    <div class="container">
-                                        <div class="col-md-8 col-sm-12">
+                                        <div class="col-md-7 col-sm-12">
                                              <h3>Your Perfect Celebration</h3>
-                                             <h1>Birthdays, weddings, anniversaries, and every special occasion</h1>
-                                             <a href="#contact" class="section-btn btn btn-default smoothScroll">Order Now</a>
+                                             <h2 class="hero-title">Birthdays, weddings, graduations &amp; every special occasion</h2>
+                                             <div class="hero-actions">
+                                                  <a href="#contact" class="section-btn btn btn-default smoothScroll">Order Now</a>
+                                             </div>
                                         </div>
                                    </div>
                               </div>
                          </div>
                     </div>
 
+                    <!-- Real cakes, front and centre (desktop only) -->
+                    <div class="hero-stack" aria-hidden="true">
+                         <img src="cake_images/thumbs/IMG-20251206-WA0007.jpg" alt="" class="hero-polaroid p1" width="600" height="800">
+                         <img src="cake_images/thumbs/IMG-20251203-WA0011.jpg" alt="" class="hero-polaroid p2" width="600" height="800">
+                         <img src="cake_images/thumbs/IMG-20251203-WA0016.jpg" alt="" class="hero-polaroid p3" width="600" height="800">
+                    </div>
+
+          </div>
+     </section>
+
+
+     <!-- TRUST STRIP -->
+     <section class="trust-strip" aria-label="Why The Cake Melts">
+          <div class="container">
+               <ul class="trust-list">
+                    <li><i class="fa fa-heart" aria-hidden="true"></i><strong>Since 2021</strong><span>Baking sweet moments</span></li>
+                    <li><i class="fa fa-paint-brush" aria-hidden="true"></i><strong>100% Custom</strong><span>Designed around your idea</span></li>
+                    <li><i class="fa fa-birthday-cake" aria-hidden="true"></i><strong>Baked Fresh</strong><span>Made to order, every time</span></li>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><strong>Bloemfontein</strong><span>Free State, South Africa</span></li>
+               </ul>
           </div>
      </section>
 
@@ -184,16 +246,17 @@ The Cake Melts - Custom Cake Bakery Website
                               <div class="wow fadeInUp" data-wow-delay="0.4s">
                                    <p>I started The Cake Melts in 2021 as a self-taught baker with a true passion for creativity. What began as a hobby quickly grew into a business built on consistency, detail, and a love for creating special moments. Whether it's a birthday, wedding, anniversary, graduation, baby shower, corporate event, or even a simple craving, each cake I craft is designed to bring joy and melt hearts.</p>
                                    <p>I'm mostly known for my creative variation cakes and cupcakes that are based on customer custom ideas on how they want their cakes/cupcakes to look. Not only are they beautiful, but they are always fresh and delicious.</p>
+                                   <a href="#gallery" class="text-link smoothScroll">Browse the gallery <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                               </div>
                          </div>
                     </div>
 
                     <div class="col-md-6 col-sm-12">
                          <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
-                              <img src="cake_images/read-my.jpg" class="img-responsive" alt="Read my story">
+                              <img src="cake_images/read-my.jpg" class="img-responsive" alt="The Cake Melts branded striped apron" width="1600" height="896" loading="lazy">
                          </div>
                     </div>
-                    
+
                </div>
           </div>
      </section>
@@ -243,8 +306,8 @@ The Cake Melts - Custom Cake Bakery Website
 
                     <div class="col-md-12 col-sm-12">
                          <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
-                              <h2>Our Cakes</h2>
                               <h4>Custom Cakes &amp; Cupcakes</h4>
+                              <h2>Our Cakes</h2>
                          </div>
                     </div>
 
@@ -252,7 +315,7 @@ The Cake Melts - Custom Cake Bakery Website
                          <!-- MENU THUMB -->
                          <div class="menu-thumb">
                               <a href="cake_images/1.jpeg" class="image-popup" title="Birthday Cakes">
-                                   <img src="cake_images/1.jpeg" class="img-responsive" alt="Birthday Cakes">
+                                   <img src="cake_images/1.jpeg" class="img-responsive" alt="Birthday Cakes" loading="lazy">
 
                                    <div class="menu-info">
                                         <div class="menu-item">
@@ -271,7 +334,7 @@ The Cake Melts - Custom Cake Bakery Website
                          <!-- MENU THUMB -->
                          <div class="menu-thumb">
                               <a href="cake_images/2.jpeg" class="image-popup" title="Character Cakes">
-                                   <img src="cake_images/2.jpeg" class="img-responsive" alt="Character Cakes">
+                                   <img src="cake_images/2.jpeg" class="img-responsive" alt="Character Cakes" loading="lazy">
 
                                    <div class="menu-info">
                                         <div class="menu-item">
@@ -290,7 +353,7 @@ The Cake Melts - Custom Cake Bakery Website
                          <!-- MENU THUMB -->
                          <div class="menu-thumb">
                               <a href="cake_images/3.jpeg" class="image-popup" title="Bento Cakes">
-                                   <img src="cake_images/3.jpeg" class="img-responsive" alt="Bento Cakes">
+                                   <img src="cake_images/3.jpeg" class="img-responsive" alt="Bento Cakes" loading="lazy">
 
                                    <div class="menu-info">
                                         <div class="menu-item">
@@ -309,7 +372,7 @@ The Cake Melts - Custom Cake Bakery Website
                          <!-- MENU THUMB -->
                          <div class="menu-thumb">
                               <a href="cake_images/4.jpg" class="image-popup" title="Baby Shower Cakes">
-                                   <img src="cake_images/4.jpg" class="img-responsive" alt="Baby Shower Cakes">
+                                   <img src="cake_images/4.jpg" class="img-responsive" alt="Baby Shower Cakes" loading="lazy">
 
                                    <div class="menu-info">
                                         <div class="menu-item">
@@ -328,7 +391,7 @@ The Cake Melts - Custom Cake Bakery Website
                          <!-- MENU THUMB -->
                          <div class="menu-thumb">
                               <a href="cake_images/5.jpeg" class="image-popup" title="Wedding Cakes">
-                                   <img src="cake_images/5.jpeg" class="img-responsive" alt="Wedding Cakes">
+                                   <img src="cake_images/5.jpeg" class="img-responsive" alt="Wedding Cakes" loading="lazy">
 
                                    <div class="menu-info">
                                         <div class="menu-item">
@@ -347,7 +410,7 @@ The Cake Melts - Custom Cake Bakery Website
                          <!-- MENU THUMB -->
                          <div class="menu-thumb">
                               <a href="cake_images/6.jpeg" class="image-popup" title="Cupcakes">
-                                   <img src="cake_images/6.jpeg" class="img-responsive" alt="Cupcakes">
+                                   <img src="cake_images/6.jpeg" class="img-responsive" alt="Cupcakes" loading="lazy">
 
                                    <div class="menu-info">
                                         <div class="menu-item">
@@ -368,6 +431,149 @@ The Cake Melts - Custom Cake Bakery Website
      </section>
 
 
+     <!-- GALLERY -->
+     <section id="gallery">
+          <div class="container">
+               <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                    <h4>Fresh from the oven</h4>
+                    <h2>Recent Creations</h2>
+                    <p class="section-lead">Every cake below was made to a customer's own idea. Tap any photo to see it up close.</p>
+               </div>
+
+               <div class="gallery-filters" role="group" aria-label="Filter gallery">
+                    <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">All</button>
+                    <button type="button" class="filter-btn" data-filter="heart" aria-pressed="false">Heart Cakes</button>
+                    <button type="button" class="filter-btn" data-filter="birthday" aria-pressed="false">Birthday</button>
+                    <button type="button" class="filter-btn" data-filter="cupcakes" aria-pressed="false">Cupcakes</button>
+                    <button type="button" class="filter-btn" data-filter="graduation" aria-pressed="false">Graduation</button>
+                    <button type="button" class="filter-btn" data-filter="baby" aria-pressed="false">Baby Shower</button>
+               </div>
+
+               <div class="gallery-grid" id="gallery-grid">
+                    <a href="cake_images/IMG-20251203-WA0016.jpg" class="gallery-item" data-cat="birthday" title="Lilac 3rd birthday cake with gold butterflies and fresh flowers"><img src="cake_images/thumbs/IMG-20251203-WA0016.jpg" alt="Lilac 3rd birthday cake with gold butterflies and fresh flowers" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0011.jpg" class="gallery-item" data-cat="heart birthday" title="Pink vintage heart cake with ribbon bows - Happy 60th Birthday Mama"><img src="cake_images/thumbs/IMG-20251203-WA0011.jpg" alt="Pink vintage heart cake with ribbon bows for a 60th birthday" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0013.jpg" class="gallery-item" data-cat="heart birthday" title="Red heart cake with an October calendar topper and black bows"><img src="cake_images/thumbs/IMG-20251203-WA0013.jpg" alt="Red heart cake with an October calendar topper and black bows" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0027.jpg" class="gallery-item" data-cat="baby" title="Pink and blue baby shower cake with prams, bottles and baby feet"><img src="cake_images/thumbs/IMG-20251203-WA0027.jpg" alt="Pink and blue baby shower cake with prams, bottles and baby feet" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0032.jpg" class="gallery-item" data-cat="graduation" title="Class of 2024 graduation cake with a mortarboard topper and daisies"><img src="cake_images/thumbs/IMG-20251203-WA0032.jpg" alt="Class of 2024 graduation cake with a mortarboard topper and daisies" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0007.jpg" class="gallery-item" data-cat="cupcakes" title="Blue and white farewell cupcakes with fondant message toppers"><img src="cake_images/thumbs/IMG-20251206-WA0007.jpg" alt="Blue and white cupcakes with To a new adventure fondant toppers" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0021.jpg" class="gallery-item" data-cat="heart birthday" title="White heart birthday cake with red ribbon bows"><img src="cake_images/thumbs/IMG-20251203-WA0021.jpg" alt="White heart birthday cake with red ribbon bows" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0023.jpg" class="gallery-item" data-cat="birthday" title="Textured 22nd birthday cake with pink rosettes and a silver crown"><img src="cake_images/thumbs/IMG-20251203-WA0023.jpg" alt="White textured 22nd birthday cake with pink rosettes and a silver crown" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0025.jpg" class="gallery-item" data-cat="heart birthday" title="Pink heart photo cake with printed pictures and gold butterflies"><img src="cake_images/thumbs/IMG-20251203-WA0025.jpg" alt="Pink heart photo cake with printed pictures and gold butterflies" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0029.jpg" class="gallery-item" data-cat="graduation heart" title="A proud graduate with her heart graduation cake"><img src="cake_images/thumbs/IMG-20251203-WA0029.jpg" alt="Graduate in cap and gown holding a heart graduation cake" width="600" height="898" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0024.jpg" class="gallery-item" data-cat="birthday" title="White July calendar cake with black bows and gold pearls"><img src="cake_images/thumbs/IMG-20251203-WA0024.jpg" alt="White July calendar cake with black bows and gold pearls" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0006.jpg" class="gallery-item" data-cat="cupcakes" title="Red velvet cupcakes with pink and white swirls and snowflake toppers"><img src="cake_images/thumbs/IMG-20251206-WA0006.jpg" alt="Red velvet cupcakes with pink and white swirls and snowflake toppers" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0015.jpg" class="gallery-item" data-cat="birthday" title="Lilac birthday cake with butterflies, flowers and a name plaque"><img src="cake_images/thumbs/IMG-20251203-WA0015.jpg" alt="Lilac birthday cake with butterflies, flowers and a name plaque" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0019.jpg" class="gallery-item" data-cat="heart birthday" title="Pink heart cake with pearls and ribbons"><img src="cake_images/thumbs/IMG-20251203-WA0019.jpg" alt="Pink heart cake with pearls and ribbons" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0031.jpg" class="gallery-item" data-cat="graduation heart" title="White heart Class of 2024 graduation cake with black bows"><img src="cake_images/thumbs/IMG-20251203-WA0031.jpg" alt="White heart Class of 2024 graduation cake with black bows" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0017.jpg" class="gallery-item" data-cat="birthday cupcakes" title="Calendar bento cake with matching cupcakes in a gift box"><img src="cake_images/thumbs/IMG-20251203-WA0017.jpg" alt="Calendar bento cake with black bows and matching cupcakes in a gift box" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0014.jpg" class="gallery-item" data-cat="cupcakes" title="Black Panther themed chocolate cupcakes"><img src="cake_images/thumbs/IMG-20251206-WA0014.jpg" alt="Black Panther themed chocolate cupcakes" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0036.jpg" class="gallery-item" data-cat="birthday" title="Black and white birthday cake with gold leaf and a pink fan topper"><img src="cake_images/thumbs/IMG-20251203-WA0036.jpg" alt="Black and white birthday cake with gold leaf and a pink fan topper" width="600" height="1217" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0028.jpg" class="gallery-item" data-cat="baby" title="Baby shower cake with pink and blue prams"><img src="cake_images/thumbs/IMG-20251203-WA0028.jpg" alt="Baby shower cake with pink and blue prams" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0012.jpg" class="gallery-item" data-cat="cupcakes" title="Purple and lilac buttercream cupcakes"><img src="cake_images/thumbs/IMG-20251206-WA0012.jpg" alt="Purple and lilac buttercream cupcakes" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0030.jpg" class="gallery-item" data-cat="graduation" title="Black and white graduation photo cake with ribbon bows"><img src="cake_images/thumbs/IMG-20251203-WA0030.jpg" alt="Black and white graduation photo cake with ribbon bows" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0035.jpg" class="gallery-item" data-cat="birthday" title="White wave-textured cake with blush rosettes and gold pearls"><img src="cake_images/thumbs/IMG-20251203-WA0035.jpg" alt="White wave-textured cake with blush rosettes and gold pearls" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/10.jpg" class="gallery-item" data-cat="heart birthday" title="Lilac heart photo cake with gold butterflies"><img src="cake_images/thumbs/10.jpg" alt="Lilac heart photo cake with printed pictures and gold butterflies" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0004.jpg" class="gallery-item" data-cat="cupcakes" title="Pink and white red velvet cupcakes, boxed and ready"><img src="cake_images/thumbs/IMG-20251206-WA0004.jpg" alt="Boxes of pink and white red velvet cupcakes" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0034.jpg" class="gallery-item" data-cat="birthday" title="Two celebration cakes with piped borders and black bows"><img src="cake_images/thumbs/IMG-20251203-WA0034.jpg" alt="Two celebration cakes with piped borders and black bows" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251203-WA0020.jpg" class="gallery-item" data-cat="heart birthday" title="Pink heart cake with pearls and ribbons, side view"><img src="cake_images/thumbs/IMG-20251203-WA0020.jpg" alt="Pink heart cake with pearls and ribbons, side view" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0009.jpg" class="gallery-item" data-cat="cupcakes" title="Individually boxed cupcakes in black and gold gift boxes"><img src="cake_images/thumbs/IMG-20251206-WA0009.jpg" alt="Stacked individual cupcake gift boxes in black and gold" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0019.jpg" class="gallery-item" data-cat="cupcakes graduation" title="Individually boxed graduation cupcakes"><img src="cake_images/thumbs/IMG-20251206-WA0019.jpg" alt="Individually boxed graduation cupcakes" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0008.jpg" class="gallery-item" data-cat="cupcakes" title="A gift box of farewell cupcakes"><img src="cake_images/thumbs/IMG-20251206-WA0008.jpg" alt="Gift box of blue and pink farewell cupcakes" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0015.jpg" class="gallery-item" data-cat="cupcakes" title="Purple ombre cupcakes"><img src="cake_images/thumbs/IMG-20251206-WA0015.jpg" alt="Purple ombre buttercream cupcakes" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0017.jpg" class="gallery-item" data-cat="cupcakes" title="Black Panther themed chocolate and vanilla cupcakes"><img src="cake_images/thumbs/IMG-20251206-WA0017.jpg" alt="Black Panther themed chocolate and vanilla cupcakes" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0001.jpg" class="gallery-item" data-cat="cupcakes" title="Cupcakes with printed character toppers"><img src="cake_images/thumbs/IMG-20251206-WA0001.jpg" alt="Box of cupcakes with printed character toppers" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0010.jpg" class="gallery-item" data-cat="cupcakes" title="Boxes of pink and white swirl cupcakes"><img src="cake_images/thumbs/IMG-20251206-WA0010.jpg" alt="Boxes of pink and white swirl cupcakes" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0020.jpg" class="gallery-item" data-cat="cupcakes" title="Black Panther cupcakes with white buttercream"><img src="cake_images/thumbs/IMG-20251206-WA0020.jpg" alt="Black Panther cupcakes with white buttercream" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0016.jpg" class="gallery-item" data-cat="cupcakes" title="Purple and lilac cupcakes in a polka-dot box"><img src="cake_images/thumbs/IMG-20251206-WA0016.jpg" alt="Purple and lilac cupcakes in a polka-dot box" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0002.jpg" class="gallery-item" data-cat="cupcakes" title="Three boxes of cupcakes with printed toppers"><img src="cake_images/thumbs/IMG-20251206-WA0002.jpg" alt="Three boxes of cupcakes with printed toppers" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0013.jpg" class="gallery-item" data-cat="cupcakes" title="Black and white themed cupcakes in damask boxes"><img src="cake_images/thumbs/IMG-20251206-WA0013.jpg" alt="Black and white themed cupcakes in damask boxes" width="600" height="450" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0018.jpg" class="gallery-item" data-cat="cupcakes" title="A box of purple and lilac cupcakes"><img src="cake_images/thumbs/IMG-20251206-WA0018.jpg" alt="Box of purple and lilac cupcakes" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0003.jpg" class="gallery-item" data-cat="cupcakes" title="A box of cupcakes with printed toppers"><img src="cake_images/thumbs/IMG-20251206-WA0003.jpg" alt="Box of sixteen cupcakes with printed toppers" width="600" height="800" loading="lazy"></a>
+                    <a href="cake_images/IMG-20251206-WA0011.jpg" class="gallery-item" data-cat="cupcakes" title="Cupcake boxes with printed toppers"><img src="cake_images/thumbs/IMG-20251206-WA0011.jpg" alt="Cupcake boxes with printed photo toppers" width="600" height="800" loading="lazy"></a>
+               </div>
+
+               <div class="gallery-more">
+                    <button type="button" class="btn-outline" id="gallery-more">Show more creations</button>
+               </div>
+          </div>
+     </section>
+
+
+     <!-- VIDEOS -->
+     <section id="videos" aria-labelledby="videos-title">
+          <div class="container">
+               <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                    <h4>Up close</h4>
+                    <h2 id="videos-title">See the Details</h2>
+                    <p class="section-lead">Pearls, piping and bows: the little things look even better in motion.</p>
+               </div>
+
+               <div class="reel-row">
+                    <figure class="reel">
+                         <video src="cake_images/VID-20251203-WA0005.mp4" poster="cake_images/posters/VID-20251203-WA0005.jpg" muted loop playsinline preload="none" width="478" height="850" aria-label="Pink vintage heart cake with pearls and ribbons"></video>
+                         <button type="button" class="reel-toggle" aria-label="Play video"><i class="fa fa-play" aria-hidden="true"></i></button>
+                         <figcaption>Pink Vintage Heart</figcaption>
+                    </figure>
+                    <figure class="reel">
+                         <video src="cake_images/VID-20251203-WA0006.mp4" poster="cake_images/posters/VID-20251203-WA0006.jpg" muted loop playsinline preload="none" width="478" height="850" aria-label="Birthday cake with pink rosettes and a silver crown"></video>
+                         <button type="button" class="reel-toggle" aria-label="Play video"><i class="fa fa-play" aria-hidden="true"></i></button>
+                         <figcaption>Crowned Birthday Cake</figcaption>
+                    </figure>
+                    <figure class="reel">
+                         <video src="cake_images/VID-20251203-WA0007.mp4" poster="cake_images/posters/VID-20251203-WA0007.jpg" muted loop playsinline preload="none" width="478" height="850" aria-label="White cake with black ribbon bows and gold pearls"></video>
+                         <button type="button" class="reel-toggle" aria-label="Play video"><i class="fa fa-play" aria-hidden="true"></i></button>
+                         <figcaption>Bows &amp; Pearls</figcaption>
+                    </figure>
+                    <figure class="reel">
+                         <video src="cake_images/VID-20251203-WA0008.mp4" poster="cake_images/posters/VID-20251203-WA0008.jpg" muted loop playsinline preload="none" width="478" height="850" aria-label="Close-up of a July calendar cake with piped border"></video>
+                         <button type="button" class="reel-toggle" aria-label="Play video"><i class="fa fa-play" aria-hidden="true"></i></button>
+                         <figcaption>Calendar Cake Close-up</figcaption>
+                    </figure>
+               </div>
+          </div>
+     </section>
+
+
+     <!-- HOW TO ORDER -->
+     <section id="how-to-order">
+          <div class="container">
+               <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                    <h4>Simple &amp; sweet</h4>
+                    <h2>How to Order</h2>
+               </div>
+
+               <ol class="steps">
+                    <li class="step wow fadeInUp" data-wow-delay="0.1s">
+                         <span class="step-num">1</span>
+                         <h3>Share your idea</h3>
+                         <p>Tell us the occasion, date and number of guests. Pictures and inspiration are welcome!</p>
+                    </li>
+                    <li class="step wow fadeInUp" data-wow-delay="0.2s">
+                         <span class="step-num">2</span>
+                         <h3>Get your quote</h3>
+                         <p>Cakes differ in size and design, so we'll send a price tailored to your cake.</p>
+                    </li>
+                    <li class="step wow fadeInUp" data-wow-delay="0.3s">
+                         <span class="step-num">3</span>
+                         <h3>We bake it fresh</h3>
+                         <p>Your cake is baked and decorated to order, never pre-made.</p>
+                    </li>
+                    <li class="step wow fadeInUp" data-wow-delay="0.4s">
+                         <span class="step-num">4</span>
+                         <h3>Celebrate!</h3>
+                         <p>Collect in Bloemfontein and watch every heart melt.</p>
+                    </li>
+               </ol>
+
+               <div class="steps-cta">
+                    <a href="https://wa.me/27645022792?text=Hi%20The%20Cake%20Melts!%20I%27d%20like%20to%20order%20a%20cake." class="btn-whatsapp" target="_blank" rel="noopener"><i class="fa fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp</a>
+                    <a href="#contact" class="btn-outline smoothScroll">Send an order request</a>
+                    <p class="steps-note"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Book early to secure your date.</p>
+               </div>
+          </div>
+     </section>
+
+
      <!-- TESTIMONIAL -->
      <section id="testimonial" data-stellar-background-ratio="0.5">
           <div class="overlay"></div>
@@ -378,13 +584,13 @@ The Cake Melts - Custom Cake Bakery Website
                          <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
                               <h2>Testimonials</h2>
                          </div>
-                    </div>  
+                    </div>
 
                     <div class="col-md-offset-2 col-md-8 col-sm-12">
-                         <div class="owl-carousel owl-theme">
+                         <div class="owl-carousel owl-theme testimonial-carousel">
                               <div class="item">
                                    <div class="testimonial-content">
-                                        <img src="cake_images/Testimonials-image.png" alt="Thandiwe Nkosi" class="testimonial-avatar">
+                                        <img src="cake_images/Testimonials-image.png" alt="" class="testimonial-avatar" loading="lazy">
                                         <p>"The birthday cake for my daughter's 5th birthday was absolutely stunning! Not only did it look amazing, but it tasted incredible too. The Cake Melts truly made our celebration special!"</p>
                                         <div class="tst-author">
                                              <h4>Thandiwe Nkosi</h4>
@@ -395,7 +601,7 @@ The Cake Melts - Custom Cake Bakery Website
 
                               <div class="item">
                                    <div class="testimonial-content">
-                                        <img src="cake_images/Testimonials-image.png" alt="Sipho Dlamini" class="testimonial-avatar">
+                                        <img src="cake_images/Testimonials-image.png" alt="" class="testimonial-avatar" loading="lazy">
                                         <p>"We ordered our wedding cake from The Cake Melts and it exceeded all our expectations! The design was exactly what we envisioned, and our guests couldn't stop raving about how delicious it was."</p>
                                         <div class="tst-author">
                                              <h4>Sipho Dlamini</h4>
@@ -406,7 +612,7 @@ The Cake Melts - Custom Cake Bakery Website
 
                               <div class="item">
                                    <div class="testimonial-content">
-                                        <img src="cake_images/Testimonials-image.png" alt="Nomvula Mthembu" class="testimonial-avatar">
+                                        <img src="cake_images/Testimonials-image.png" alt="" class="testimonial-avatar" loading="lazy">
                                         <p>"I've ordered multiple cakes from The Cake Melts for various occasions. Each time, the cakes are fresh, beautifully decorated, and absolutely delicious. Highly recommend!"</p>
                                         <div class="tst-author">
                                              <h4>Nomvula Mthembu</h4>
@@ -417,7 +623,7 @@ The Cake Melts - Custom Cake Bakery Website
 
                               <div class="item">
                                    <div class="testimonial-content">
-                                        <img src="cake_images/Testimonials-image.png" alt="Lwazi Khumalo" class="testimonial-avatar">
+                                        <img src="cake_images/Testimonials-image.png" alt="" class="testimonial-avatar" loading="lazy">
                                         <p>"The custom cupcakes for our corporate event were a huge hit! The attention to detail and creativity was impressive. Everyone loved them!"</p>
                                         <div class="tst-author">
                                              <h4>Lwazi Khumalo</h4>
@@ -428,7 +634,7 @@ The Cake Melts - Custom Cake Bakery Website
 
                               <div class="item">
                                    <div class="testimonial-content">
-                                        <img src="cake_images/Testimonials-image.png" alt="Zanele Mahlangu" class="testimonial-avatar">
+                                        <img src="cake_images/Testimonials-image.png" alt="" class="testimonial-avatar" loading="lazy">
                                         <p>"Our anniversary cake was perfect! The baker really understood our vision and created something even more beautiful than we imagined. The taste was phenomenal!"</p>
                                         <div class="tst-author">
                                              <h4>Zanele Mahlangu</h4>
@@ -442,7 +648,7 @@ The Cake Melts - Custom Cake Bakery Website
 
                </div>
           </div>
-     </section>  
+     </section>
 
 
      <!-- CONTACT -->
@@ -451,59 +657,84 @@ The Cake Melts - Custom Cake Bakery Website
                <div class="row">
                     <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.4s">
                          <div id="location-image">
-                              <img src="cake_images/Logo.png" class="img-responsive" alt="The Cake Melts Location">
+                              <img src="cake_images/Logo.png" class="img-responsive" alt="The Cake Melts logo" width="500" height="500" loading="lazy">
                          </div>
-                    </div>    
+                    </div>
 
                     <div class="col-md-6 col-sm-12">
 
                          <div class="col-md-12 col-sm-12">
                               <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
-                                   <h2>Contact Us</h2>
                                    <h4>Order your custom cake today</h4>
+                                   <h2>Contact Us</h2>
                               </div>
                          </div>
 
                          <!-- CONTACT INFO -->
                          <div class="wow fadeInUp" data-wow-delay="0.4s">
-                              <div class="col-md-12 col-sm-12" style="margin-bottom: 30px;">
-                                   <p style="font-size: 18px; margin-bottom: 15px;"><i class="fa fa-envelope-o"></i> <a href="mailto:leratontsinyi11@gmail.com">leratontsinyi11@gmail.com</a></p>
-                                   <p style="font-size: 18px; margin-bottom: 15px;"><i class="fa fa-phone"></i> <a href="tel:+27645022792">+27 64 502 2792</a></p>
-                                   <p style="font-size: 18px; margin-bottom: 15px;"><i class="fa fa-map-marker" style="margin-right: 8px; vertical-align: middle;"></i><a href="https://www.google.com/maps/search/?api=1&query=10+Calvyn+Cres,+Park+West,+Bloemfontein,+9301,+South+Africa" target="_blank" style="color: #ce3232; background-color: rgba(206, 50, 50, 0.1); padding: 5px 10px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline; font-size: 14px; cursor: pointer; transition: all 0.3s ease; vertical-align: middle;" onmouseover="this.style.background='rgba(206, 50, 50, 0.2)'; this.style.textDecoration='underline';" onmouseout="this.style.background='rgba(206, 50, 50, 0.1)'; this.style.textDecoration='none';">10 Calvyn Cres, Park West, Bloemfontein, 9301, South Africa</a></p>
-                              </div>
+                              <ul class="col-md-12 col-sm-12 contact-list">
+                                   <li><i class="fa fa-whatsapp" aria-hidden="true"></i> <a href="https://wa.me/27645022792?text=Hi%20The%20Cake%20Melts!%20I%27d%20like%20to%20order%20a%20cake." target="_blank" rel="noopener">WhatsApp us (fastest reply)</a></li>
+                                   <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+27645022792">+27 64 502 2792</a></li>
+                                   <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:leratontsinyi11@gmail.com">leratontsinyi11@gmail.com</a></li>
+                                   <li><i class="fa fa-map-marker" aria-hidden="true"></i> <a href="https://www.google.com/maps/search/?api=1&amp;query=10+Calvyn+Cres,+Park+West,+Bloemfontein,+9301,+South+Africa" target="_blank" rel="noopener" class="map-link">10 Calvyn Cres, Park West, Bloemfontein, 9301</a></li>
+                              </ul>
                          </div>
 
                          <!-- CONTACT FORM -->
-                         <form action="#" method="post" class="wow fadeInUp" id="contact-form" role="form" data-wow-delay="0.8s" data-emailjs-service="service_czhyxwo" data-emailjs-template="template_vvajf2m" data-emailjs-public="jt4Sg5gaUViF2VJIL">
+                         <form action="#" method="post" class="wow fadeInUp" id="contact-form" data-wow-delay="0.8s" data-emailjs-service="service_czhyxwo" data-emailjs-template="template_vvajf2m" data-emailjs-public="jt4Sg5gaUViF2VJIL" novalidate>
 
                               <!-- IF MAIL SENT SUCCESSFUL  // connect this with custom JS -->
-                              <h6 class="text-success">Your message has been sent successfully.</h6>
-                              
+                              <h6 class="text-success" role="status">Your message has been sent successfully.</h6>
+
                               <!-- IF MAIL NOT SENT -->
-                              <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
+                              <h6 class="text-danger" role="alert">E-mail must be valid and message must be longer than 1 character.</h6>
 
                               <div class="col-md-6 col-sm-6">
-                                   <input type="text" class="form-control" id="cf-name" name="name" placeholder="Full name">
+                                   <label for="cf-name" class="sr-only">Full name</label>
+                                   <input type="text" class="form-control" id="cf-name" name="name" placeholder="Full name" autocomplete="name" required>
                               </div>
 
                               <div class="col-md-6 col-sm-6">
-                                   <input type="email" class="form-control" id="cf-email" name="email" placeholder="Email address">
+                                   <label for="cf-email" class="sr-only">Email address</label>
+                                   <input type="email" class="form-control" id="cf-email" name="email" placeholder="Email address" autocomplete="email" required>
+                              </div>
+
+                              <div class="col-md-6 col-sm-6">
+                                   <label for="cf-occasion" class="sr-only">Occasion</label>
+                                   <select class="form-control" id="cf-occasion" name="occasion" required>
+                                        <option value="" selected disabled>Occasion</option>
+                                        <option>Birthday</option>
+                                        <option>Wedding</option>
+                                        <option>Anniversary</option>
+                                        <option>Graduation</option>
+                                        <option>Baby Shower</option>
+                                        <option>Corporate Event</option>
+                                        <option>Cupcakes only</option>
+                                        <option>Just because</option>
+                                   </select>
+                              </div>
+
+                              <div class="col-md-6 col-sm-6">
+                                   <label for="cf-date" class="date-label">Date needed <span>(optional)</span></label>
+                                   <input type="date" class="form-control" id="cf-date" name="event_date">
                               </div>
 
                               <div class="col-md-12 col-sm-12">
-                                   <input type="text" class="form-control" id="cf-website" name="website" placeholder="Leave this field empty" aria-hidden="true" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">
-                                   <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Subject (e.g., Birthday Cake Order)">
+                                   <input type="text" class="form-control" id="cf-website" name="website" placeholder="Leave this field empty" aria-hidden="true" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">
 
-                                   <textarea class="form-control" rows="6" id="cf-message" name="message" placeholder="Tell us about your cake order - occasion, design ideas, number of servings, etc."></textarea>
+                                   <label for="cf-message" class="sr-only">Your cake idea</label>
+                                   <textarea class="form-control" rows="6" id="cf-message" name="message" placeholder="Tell us about your cake: design ideas, flavours, number of servings, etc." required></textarea>
 
-                                   <button type="submit" class="form-control" id="cf-submit" name="submit">Send Message</button>
+                                   <button type="submit" class="form-control" id="cf-submit" name="submit">Send Order Request</button>
                               </div>
                          </form>
                     </div>
 
                </div>
           </div>
-     </section>          
+     </section>
+
+     </main>
 
 
      <!-- FOOTER -->
@@ -511,7 +742,7 @@ The Cake Melts - Custom Cake Bakery Website
           <div class="container">
                <div class="row">
 
-                    <div class="col-md-3 col-sm-8">
+                    <div class="col-md-3 col-sm-6">
                          <div class="footer-info">
                               <div class="section-title">
                                    <h2 class="wow fadeInUp" data-wow-delay="0.2s">The Cake Melts</h2>
@@ -523,7 +754,7 @@ The Cake Melts - Custom Cake Bakery Website
                          </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-8">
+                    <div class="col-md-3 col-sm-6">
                          <div class="footer-info">
                               <div class="section-title">
                                    <h2 class="wow fadeInUp" data-wow-delay="0.2s">Contact Us</h2>
@@ -531,7 +762,7 @@ The Cake Melts - Custom Cake Bakery Website
                               <address class="wow fadeInUp" data-wow-delay="0.4s">
                                    <p><a href="tel:+27645022792">+27 64 502 2792</a></p>
                                    <p><a href="mailto:leratontsinyi11@gmail.com">leratontsinyi11@gmail.com</a></p>
-                                   <p style="font-size: 16px; color: #ce3232; font-weight: bold; margin-top: 10px;"><i class="fa fa-map-pin"></i> Located in Free State, Bloemfontein</p>
+                                   <p class="footer-location"><i class="fa fa-map-pin" aria-hidden="true"></i> Located in Bloemfontein, Free State</p>
                               </address>
                          </div>
                     </div>
@@ -544,27 +775,34 @@ The Cake Melts - Custom Cake Bakery Website
                               <div class="wow fadeInUp" data-wow-delay="0.4s">
                                    <p>Cakes differ with size and design, so prices may vary.</p>
                                    <p>Birthday, Wedding, Anniversary &amp; Custom Cakes</p>
-                                   <p><strong>Contact us for pricing</strong></p>
+                                   <p><a href="#contact" class="smoothScroll"><strong>Contact us for pricing <i class="fa fa-long-arrow-right" aria-hidden="true"></i></strong></a></p>
                               </div>
                          </div>
                     </div>
 
                     <div class="col-md-2 col-sm-4">
                          <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
-                              <li><a href="https://www.facebook.com/share/18km2cuvvU/" target="_blank" rel="noopener noreferrer" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                              <li><a href="https://www.tiktok.com/@the_cake_melts?_r=1&_t=ZS-974o5zaBBci" target="_blank" rel="noopener noreferrer" class="social-tiktok" aria-label="TikTok"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a></li>
-                              <li><a href="https://www.instagram.com/the_cake_melts?igsh=NzJoaTQyZmhscnhh" target="_blank" rel="noopener noreferrer" class="fa fa-instagram"></a></li>
-                              <li><a href="#" class="fa fa-google"></a></li>
+                              <li><a href="https://www.facebook.com/share/18km2cuvvU/" target="_blank" rel="noopener noreferrer" class="fa fa-facebook-square" aria-label="The Cake Melts on Facebook"></a></li>
+                              <li><a href="https://www.tiktok.com/@the_cake_melts?_r=1&amp;_t=ZS-974o5zaBBci" target="_blank" rel="noopener noreferrer" class="social-tiktok" aria-label="The Cake Melts on TikTok"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg></a></li>
+                              <li><a href="https://www.instagram.com/the_cake_melts?igsh=NzJoaTQyZmhscnhh" target="_blank" rel="noopener noreferrer" class="fa fa-instagram" aria-label="The Cake Melts on Instagram"></a></li>
+                              <li><a href="https://wa.me/27645022792" target="_blank" rel="noopener noreferrer" class="fa fa-whatsapp" aria-label="Chat with The Cake Melts on WhatsApp"></a></li>
                          </ul>
 
-                         <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s"> 
-                              <p><br>Copyright &copy; 2024 <br>The Cake Melts</p>
+                         <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s">
+                              <p><br>Copyright &copy; <span id="year">2026</span> <br>The Cake Melts</p>
                          </div>
                     </div>
-                    
+
                </div>
           </div>
      </footer>
+
+
+     <!-- Floating WhatsApp + back to top -->
+     <a href="https://wa.me/27645022792?text=Hi%20The%20Cake%20Melts!%20I%27d%20like%20to%20order%20a%20cake." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Order on WhatsApp">
+          <i class="fa fa-whatsapp" aria-hidden="true"></i><span class="whatsapp-float-label">Order on WhatsApp</span>
+     </a>
+     <a href="#home" class="back-to-top smoothScroll" aria-label="Back to top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 
 
      <!-- SCRIPTS -->
@@ -574,13 +812,8 @@ The Cake Melts - Custom Cake Bakery Website
      <script src="js/wow.min.js"></script>
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/jquery.magnific-popup.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-     <script>
-          // Configure these IDs in the form's data attributes instead of hardcoding secrets.
-          // Example: data-emailjs-service="service_xxx" data-emailjs-template="template_xxx" data-emailjs-public="public_xxx"
-     </script>
+     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4.4.1/dist/email.min.js" defer></script>
      <script src="js/contact-form.js"></script>
 
 </body>
