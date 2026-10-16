@@ -69,8 +69,6 @@
       }
     };
 
-    $('.image-popup').magnificPopup(popupOptions);
-
     // Gallery: the delegate selector is evaluated on click, so the lightbox
     // only steps through the photos that match the active filter.
     $('#gallery-grid').magnificPopup($.extend({}, popupOptions, {
@@ -177,7 +175,8 @@
       if (!$target.length) { return; }
       event.preventDefault();
       $('html, body').stop().animate({
-        scrollTop: $target.offset().top - ($navbar.outerHeight() - 1)
+        // Fixed offset = height of the collapsed navbar (it shrinks once you scroll).
+        scrollTop: $target.offset().top - 78
       }, reduceMotion ? 0 : 800);
     });
 

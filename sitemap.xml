@@ -7,25 +7,10 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://thecakemelts.co.za/cake_images/1.jpeg</image:loc>
+      <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251203-WA0016.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://thecakemelts.co.za/cake_images/2.jpeg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://thecakemelts.co.za/cake_images/3.jpeg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://thecakemelts.co.za/cake_images/4.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://thecakemelts.co.za/cake_images/5.jpeg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://thecakemelts.co.za/cake_images/6.jpeg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251203-WA0016.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251203-WA0011.jpg</image:loc>
@@ -34,10 +19,16 @@
       <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251203-WA0013.jpg</image:loc>
     </image:image>
     <image:image>
+      <image:loc>https://thecakemelts.co.za/cake_images/5.jpeg</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251203-WA0027.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251203-WA0032.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://thecakemelts.co.za/cake_images/4.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251206-WA0007.jpg</image:loc>
@@ -49,6 +40,9 @@
       <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251203-WA0023.jpg</image:loc>
     </image:image>
     <image:image>
+      <image:loc>https://thecakemelts.co.za/cake_images/3.jpeg</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251203-WA0025.jpg</image:loc>
     </image:image>
     <image:image>
@@ -56,6 +50,9 @@
     </image:image>
     <image:image>
       <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251203-WA0024.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://thecakemelts.co.za/cake_images/1.jpeg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251206-WA0006.jpg</image:loc>
@@ -74,6 +71,9 @@
     </image:image>
     <image:image>
       <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251206-WA0014.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://thecakemelts.co.za/cake_images/6.jpeg</image:loc>
     </image:image>
     <image:image>
       <image:loc>https://thecakemelts.co.za/cake_images/IMG-20251203-WA0036.jpg</image:loc>
