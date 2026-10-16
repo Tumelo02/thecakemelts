@@ -192,6 +192,14 @@ html { scroll-padding-top: 80px; }
 }
 .custom-navbar .navbar-nav.navbar-right .nav-cta > a.section-btn:hover { background: var(--ink); color: #fff; }
 
+/* Scrollspy marks this button "active" on the Contact section (it links to #contact);
+   the template's active style would clear its background and hide the button. */
+.custom-navbar .navbar-nav.navbar-right .nav-cta.active > a.section-btn {
+  background: var(--brand);
+  color: #fff;
+  box-shadow: none;
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .custom-navbar .navbar-nav.navbar-nav-first { margin-left: 1em; }
   .custom-navbar .nav li a { padding-left: 9px; padding-right: 9px; }
@@ -793,3 +801,30 @@ footer a, footer p { color: var(--muted); }
     scroll-behavior: auto !important;
   }
 }
+
+
+/*---------------------------------------
+   FOLLOW US (contact section)
+-----------------------------------------*/
+
+.follow-us { margin: -5px 0 30px; }
+.follow-us .follow-title { margin: 0 0 10px; font-size: 14px; }
+.follow-us .follow-title strong { color: var(--ink); }
+
+.follow-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 6px 8px 0;
+  padding: 8px 16px;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  transition: transform 0.2s, opacity 0.2s;
+}
+.follow-btn .fa, .follow-btn svg { font-size: 16px; }
+.follow-btn:hover, .follow-btn:focus { color: #fff; opacity: 0.9; transform: translateY(-2px); }
+.follow-ig { background: linear-gradient(45deg, #f09433, #dc2743 50%, #bc1888); }
+.follow-tt { background: #111; }
+.follow-fb { background: #1877f2; }
